@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Laptop On Rent 078\New_ML_project_pipline\myenv"
+VIRTUAL_ENV="C:\Users\Laptop On Rent 078\Ravi_ML project\myenv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
