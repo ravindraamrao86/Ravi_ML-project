@@ -14,7 +14,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
-from src.pipeline.exception import CustomException
+from src.components.exception import CustomException
 from src.pipeline.logger import logging
 from src.utils import save_object
 
@@ -128,6 +128,7 @@ if __name__ == "__main__":
         train_arr, test_arr, preprocessor_path = data_transformation.initiate_data_transformation(train_data_path,
                                                                                                    test_data_path)
         logging.info("Data transformation completed successfully")
+        
     except Exception as e:
         logging.error("Error occurred in main execution")
-        raise CustomException(e, sys)
+        raise CustomException(e,sys)

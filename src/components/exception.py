@@ -1,6 +1,6 @@
 
 import sys
-import logging
+from src.pipeline.logger import logging
 import os
 import time
 import numpy as np
@@ -31,4 +31,4 @@ if __name__ == "__main__":  # type: ignore
         a = 1 / 0
     except Exception as e :
         
-        raise CustomException(e,sys)        
+        raise CustomException(e,sys) 

@@ -4,3 +4,14 @@ numpy
 scikit-learn
 seaborn
 matplotlib
+os
+sys
+utils
+logger
+DataTransformation
+ModelTrainer
+logging
+CustomException
+dataclass
+evaluate_model
+#-e .
